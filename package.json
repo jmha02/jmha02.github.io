@@ -1,0 +1,27 @@
+{
+  "name": "jmha02-portfolio",
+  "version": "1.0.0",
+  "description": "하정민의 개인 포트폴리오 웹사이트",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "start": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "git add . && git commit -m 'Update portfolio' && git push origin main"
+  },
+  "keywords": [
+    "portfolio",
+    "ai",
+    "ml",
+    "research",
+    "machine-learning",
+    "deep-learning"
+  ],
+  "author": "하정민 (Jeongmin Ha)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmha02/jmha02.github.io.git"
+  },
+  "homepage": "https://jmha02.github.io"
+}
